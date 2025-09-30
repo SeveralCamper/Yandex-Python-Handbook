@@ -1,0 +1,10 @@
+product_name = input()
+cost = int(input())
+weight = int(input())
+banknote = int(input())
+print("Чек")
+print(f"{product_name} - {weight}кг - {cost}руб/кг")
+print(f"Итого: {weight * cost}руб")
+print(f"Внесено: {banknote}руб")
+print(f"Сдача: {banknote - weight * cost}руб")
+
